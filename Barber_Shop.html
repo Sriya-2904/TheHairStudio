@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barber Shop</title>
+    <!-- the website icon -->
     <link rel="icon" href="./Assets/barber-shop-icon.jpg">
+    <!-- Website CSS file -->
     <link rel="stylesheet" href="./Barber_Shop_css.css">
+    <!-- CSS file for the icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- The links for more options regarding font family/style -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aladin&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aladin&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap">
+    <!-- JS script for smooth scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
 </head>
 <body>
@@ -142,7 +147,8 @@
     </section>
 
     <!-- Testimonal -->
-     <section id="testimonial">
+
+    <section id="testimonial">
         <div class="title-text">
             <p>TESTIMONIALS</p>
             <h1>What Client Says</h1>
@@ -231,11 +237,11 @@
         menuBtn.addEventListener("click", function() {
             if (sideNav.style.right === "-250px") {
                 sideNav.style.right = "0";
-                menu.src = "./close.png";
+                menu.src = "./Assets/close.png";
             } 
             else {
                 sideNav.style.right = "-250px";
-                menu.src = "./menu.png";
+                menu.src = "./Assets/menu.png";
             }
             var scroll = new SmoothScroll('a[href*="#"]', {
                 speed: 1000,
